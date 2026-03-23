@@ -1,2 +1,2 @@
 # setup-ilimanager
-To use `uses:` to install the ilimanager in a github action
+To use `uses:` to use ilitools in a github action
