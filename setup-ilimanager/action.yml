@@ -58,8 +58,10 @@ runs:
 
         rm "$ZIP_NAME"
 
-        JAR_PATH=$(find "$INSTALL_DIR" -name "ilimanager*.jar" | head -1)
-
+        VERSIONED_JAR=$(find "$INSTALL_DIR" -name "ilimanager*.jar" | head -1)
+        JAR_PATH="$INSTALL_DIR/ilimanager.jar"
+        mv "$VERSIONED_JAR" "$JAR_PATH"
+        
         echo "install-path=$INSTALL_DIR" >> "$GITHUB_OUTPUT"
         echo "jar-path=$JAR_PATH" >> "$GITHUB_OUTPUT"
 
