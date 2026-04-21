@@ -289,4 +289,4 @@ interlis-setup-action/
 
 ## Contributing
 
-[Add contribution guidelines here]
+[D. Wehrli](https://github.com/WehrliDavid)
